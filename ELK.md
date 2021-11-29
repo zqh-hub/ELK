@@ -590,7 +590,7 @@ get 索引名/_search
 
 ```
 must：&& 逻辑与
-must：！ 逻辑非
+must_not：！ 逻辑非
 should：|| 逻辑或
 ```
 
