@@ -534,6 +534,13 @@ get 索引名/_search
 
 ![31](/Users/coco/Documents/Learn/ELK/img/31.png)
 
+###### term
+```
+# 不希望被拆分就用这个，希望被分词器拆分就用match
+"term": {
+	"root_bank_id": "1202365060811851873"
+}
+```
 ###### match
 
 ```
