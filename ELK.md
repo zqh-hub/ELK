@@ -585,6 +585,13 @@ get 索引名/_search
 
 ![35](/Users/coco/Documents/Learn/ELK/img/35.png)
 
+###### 
+```
+# 允许使用通配符*和?来进行查询
+# *: 代表0个或多个字符
+# ?: 代表任意1个字符
+```
+![41](/Users/coco/Documents/Learn/ELK/img/41.png)
 ###### range
 
 ```
